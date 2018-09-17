@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * Database Optimize & Repair Tool [English]
 *
@@ -22,10 +23,10 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACP_OPTIMIZE_REPAIR'			=> 'Optimise &amp; Repair',
-	'ACP_OPTIMIZE_REPAIR_EXPLAIN'	=> 'Here you can optimise or repair your phpBB related tables. For large databases, this could take several minutes to complete. <strong>OPTIMISE</strong> will defragment your database and can offer improved database performance. <strong>REPAIR</strong> should only be used if you have reason to believe your database has crashed or corrupt tables. Note: <strong>InnoDB</strong> tables do not support Repair.',
-	'OPTIMIZE_REPAIR_OPTIONS'		=> 'Database options',
-	'DISABLE_BOARD'					=> 'Disable board',
+	'ACP_OPTIMIZE_REPAIR'			=> 'Optimeerige &amp; Parandage',
+	'ACP_OPTIMIZE_REPAIR_EXPLAIN'	=> 'Siin saate phpBB-ga seotud tabeleid optimeerida või parandada. Suurte andmebaaside puhul võib selleks kuluda rohkem aega. <strong>OPTIMEERITUD</strong> defragment võib pakkuda paremat andmebaasi jõudlust. <strong>PARANDUS</strong> tuleks kasutada ainult siis, kui teil on põhjust arvata, et teie andmebaasis on tabelid krahhinud. Märge: <strong>InnoDB</strong> ei toeta parandamist.',
+	'OPTIMIZE_REPAIR_OPTIONS'		=> 'Andmebaasi valikud',
+	'DISABLE_BOARD'					=> 'Keela foorum',
 	'DISABLE_BOARD_EXPLAIN'			=> 'You may disable the board during this process. The board will be enabled at the end of the process.',
 	'OPTIMIZE'			=> 'Optimise',
 	'OPTIMIZE_SUCCESS'	=> 'Optimisation of the selected table(s) is complete.',
