@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * Database Optimize & Repair Tool [English]
 *
@@ -22,8 +23,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACP_OPTIMIZE_REPAIR'	=> 'Optimise &amp; Repair',
-	'OPTIMIZE_LOG'			=> '<strong>Database tables optimised</strong><br />» %s',
-	'REPAIR_LOG'			=> '<strong>Database tables repaired</strong><br />» %s',
-	'CHECK_LOG'				=> '<strong>Database tables checked</strong><br />» %s',
+	'ACP_OPTIMIZE_REPAIR'	=> 'Optimeeri &amp; Paranda',
+	'OPTIMIZE_LOG'			=> '<strong>Andmebaasi tabelid optimeeritud</strong><br />» %s',
+	'REPAIR_LOG'			=> '<strong>andmebaasi tabelid parandatud</strong><br />» %s',
+	'CHECK_LOG'				=> '<strong>Andmebaasi tabelid kontrollitud</strong><br />» %s',
 ));
